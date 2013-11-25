@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="demo.css" type="text/css" />
+	<script type="text/javascript" src="../mootools.js"></script>
+	<script type="text/javascript" src="demo.js"></script>
+	<script type="text/javascript" src="form.js"></script>
+
+	<title>dvlp.se - korta ner dina urler</title>
+</head>
+<body>
+	<div id="square">
+	<h1>dvlp</h1>
+	<h2>Korta ner dina urler</h2>
+			<FORM id="myForm" ACTION="/new/" METHOD="get">
+						<INPUT TYPE="text" VALUE="http://" NAME="url">
+
+								<INPUT TYPE="submit" VALUE="dvlp!">
+									</FORM>
+	<div id ="log">
+		<div id="log_res"><!-- spanner --></div>
+	</div>
+
+
+	<div class="marginbottom">
+		
+		<a id="v_toggle" href="#">Om</a>
+		
+		
+	</div>
+	<div id="vertical_slide">
+		<p><b>dvlp.se</b> är en gratis tjänst som kortar ner urler till korta addresser för att använda i t.ex twittermeddelanden eller facebookstatusar. dvlp.se drivs av <a href="http://www.daladevelop.se">daladevelop</a>. Du får inte länka till sidor som bryter mot den svenska lagen eller till sidor som har pornografiskt innehåll. </p><br>
+		<p><b>Beta</b> - dvlp.se är just nu i betaversion - rapportera gärna eventuella buggar till oss på <a href="http://www.daladevelop.se">daladevelop</a></p><br>
+		<p>För att enklare kunna använda sidan så dra <a href="javascript:void(location.href='http://dvlp.se/new/?url='+location.href)">den här länken</a> till din bokmärkesrad. Klicka sedan på den när du vill korta ner urlen till en sida. </p>
+	<hr>
+	<p>
+	<b>API</b><br/>
+	anropa följande urler för att använda dvlp's api:
+	</p>
+	<p>	http://dvlp.se/new/?url=http://daladevelop.se&api=1
+	Resulterar i plain text response.</p>
+
+	<p>	http://dvlp.se/new/?url=http://daladevelop.se&api=2
+	Resulterar i json response.</p>
+
+	<p>	http://dvlp.se/new/?url=http://daladevelop.se&api=3&callback=?
+	Resulterar i jsonp response.</p>
+
+		
+	</div>
+</div>

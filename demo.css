@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+		margin: 0;
+			padding: 0;
+				border: 0;
+					outline: 0;
+						font-weight: inherit;
+							font-style: inherit;
+								font-size: 100%;
+									font-family: inherit;
+										vertical-align: baseline;
+									}
+
+
+body
+{
+	background-color:#ddffdd;
+	font-size: 0.8em;
+	font-family: arial;
+}
+h1
+{
+	font-family: georgia;
+	font-size: 4em;
+	margin-bottom: 20px;
+	margin-top: -4px;
+}
+#square{
+	background-color: #FF6633;
+	border:0.5px solid;
+	border-color:#000000;
+	width:300px;
+	margin: 0 auto; 
+	margin-top:100px;
+	padding: 10px;
+	border-radius: 5px; 
+	box-shadow: 0px 1px 3px #111; 
+}
+a{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+h3.section {
+	margin-top: 1em;
+}
+
+#horizontal_slide {
+	background: #D0C8C8;
+	color: #8A7575;
+	padding: 10px;
+	border: 5px solid #F3F1F1;
+	font-weight: bold;
+}
+
+div.marginbottom {
+	/* Since the Fx.Slide element resets margins, we set a margin on the above element */
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#log {
+        padding: 0.5em;
+        margin-left: 10px;
+}
+
+#log_res {
+        overflow: auto;
+}
+
+#log_res.ajax-loading {
+        padding: 20px 0;
+}
+
+p{margin: 0 0 10px 0;}
